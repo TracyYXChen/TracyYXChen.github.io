@@ -23,5 +23,6 @@ Hi, I'm Yuexi (Tracy) Chen, a computer science Ph.D. student specializing in hum
 
 [[LinkedIn](https://www.linkedin.com/in/yuexi-tracy-chen-9186631a9/){:target="_blank"}]
 [[Google Scholar](https://scholar.google.com/citations?user=eg8I0UUAAAAJ&hl=en){:target="_blank"}]
+[[GitHub](https://github.com/TracyYXChen){:target="_blank"}]
 [[Medium](https://medium.com/@tracyyxchen){:target="_blank"}]
 [[Resume](https://drive.google.com/file/d/1ZqIFCcbhARWSqkuomDf2rCC4N3SRjrto/view?usp=sharing){:target="_blank"}]
