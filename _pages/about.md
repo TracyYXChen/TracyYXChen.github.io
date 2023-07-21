@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: 2023.jpeg
+  image: 2023-smile.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Brendan Iribe Center for Computer Science and Engineering</p>
