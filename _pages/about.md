@@ -18,7 +18,8 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Hi, I'm Yuexi (Tracy) Chen, a computer science Ph.D. student specializing in human-AI interaction at the University of Maryland. 
+Hi, I'm Yuexi (Tracy) Chen, a computer science Ph.D. student working on human-AI interaction at the University of Maryland.
+I developed AI-assisted tools for designers/creators (some projects collaborated with Adobe). 
 
 
 [[LinkedIn](https://www.linkedin.com/in/yuexi-tracy-chen-9186631a9/){:target="_blank"}]
