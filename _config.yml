@@ -31,7 +31,7 @@ highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-them
 #highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
-repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: radical       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 #repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: false
@@ -260,7 +260,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: [general, machine-learning, tennis, 中文] # these tags will be displayed on the front page of your blog
+display_tags: [general, data-visualization, machine-learning, tennis, 中文] # these tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
