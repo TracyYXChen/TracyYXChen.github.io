@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unlock the power of AI on your laptop - an introduction to Hugging Face | Yuexi (Tracy)  Chen</title>
+    <meta name="author" content="Yuexi (Tracy)  Chen" />
+    <meta name="description" content="a short tutorial given at the HCIL symposium 2023" />
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/tennis.png"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://tracyyxchen.github.io/blog/2023/huggingface/">
+
+    <!-- Dark Mode -->
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Yuexi (Tracy)&nbsp;</span>Chen</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Unlock the power of AI on your laptop - an introduction to Hugging Face</h1>
+    <p class="post-meta">June 6, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+      &nbsp; &middot; &nbsp;
+        <a href="/blog/tag/machine-learning">
+          <i class="fas fa-hashtag fa-sm"></i> machine-learning</a> &nbsp;
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>During the <a href="https://hcil.umd.edu/hcil-symposium-2023/" target="_blank" rel="noopener">40th HCIL Symposium</a>, I gave a tutorial on Hugging Face, a powerful machine learning (ML) platform that offers user-friendly APIs. In addition, incorporating UMD themes made the experience more enjoyable, which served as a fun backdrop.</p>
+
+<p>As someone who has used Hugging Face for my research, I was impressed by its user-friendliness and the scope of its ML APIs. The tutorial targeted HCI/UX researchers and hobbyists with a limited computing budget but are interested in exploring new features with potential ML capabilities or in making inferences with pre-trained models.</p>
+
+<p><strong>Outline:</strong></p>
+<ul>
+  <li>HuggingChat</li>
+  <li>Spaces: online ML applications</li>
+  <li>Transformers, a Python package</li>
+</ul>
+
+<h2 id="1-huggingchat">1. HuggingChat</h2>
+
+<p>HuggingChat is a chatbot built on open-source models (currently, it’s built on OpenAssistant LLaMa 30B SFT 6). I also compared its output with closed-source models (OpenAI’s GPT-4 and Google’s Bard)</p>
+
+<p><strong>Prompt:</strong> <em>suggest some themed lunch table ideas for an HCI symposium</em></p>
+
+<p><strong>HuggingChat:</strong></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>I found those named ideas delightful.</p>
+
+<p><strong>GPT-4:</strong></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>GPT-4 suggests broad discussion topics along with table decorations. However, it had its quirks — point 5, “make sure the table is accessible to everyone,” seemed more in line with on-screen table designs rather than physical tables!</p>
+
+<p><strong>Google Bard:</strong></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>I’m surprised that Bard does not return any discussion points but focuses on decorations and food exclusively, offering suggestions right down to specifics like grilled cheese sandwiches 😅</p>
+
+<p><strong>Humans</strong></p>
+
+<p>On the human side of things, the HCIL symposium has three themed lunch tables this year:</p>
+
+<ul>
+  <li>Robotics Education</li>
+  <li>Teams/creativity</li>
+  <li>LLMs and the future of AI as a writing assistant</li>
+</ul>
+
+<p>It seems LLMs are too humble to suggest themselves as lunch table ideas! 🤷‍♀</p>
+
+<h2 id="2-hugging-face-spaces">2. Hugging Face Spaces</h2>
+<p>Next, we looked at Spaces, online demos of machine-learning applications.</p>
+
+<h3 id="object-detection-space-link">Object detection (<a href="https://huggingface.co/spaces/eddie5389/Object-Detection-With-DETR-and-YOLOS" target="_blank" rel="noopener">space link</a>)</h3>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig6.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>For instance, I demonstrated an object detection Space by uploading a photo taken at the <a href="https://dining.umd.edu/yahentamitsi-virtual-tour" target="_blank" rel="noopener">Yahentamitsi dining hall</a>. The model could identify objects within the photo, such as a backpack, pizza, and persons. (Note that it can’t return labels that are not in the training dataset, here is a <a href="https://gist.github.com/AruniRC/7b3dadd004da04c80198557db5da4bda" target="_blank" rel="noopener">list of supported labels</a> in this Space)</p>
+
+<h3 id="clip-interrogator-space-link">CLIP Interrogator (<a href="https://huggingface.co/spaces/pharma/CLIP-Interrogator" target="_blank" rel="noopener">space link</a>)</h3>
+<p>Another intriguing Space is the CLIP Interrogator, which generates potential text prompts based on an image. Let’s see what text prompts will be suggested for a photo of our <a href="https://goo.gl/maps/khGiycsZTLCFon4T8" target="_blank" rel="noopener">Testudo</a> during final exam weeks😏</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig7-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig7-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig7-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig7.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>If I use the output verbatim as input for Stable Diffusion, one of the generated images is: 😆</p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h2 id="3-transformers-a-python-package">3. Transformers, a Python package</h2>
+<p>Hugging Face offers a variety of Python packages, including Transformers, which can be used for numerous tasks, such as Natural Language Processing (NLP), Computer Vision (CV), and audio processing. I demonstrated how to use it for sentiment analysis, language modeling, zero-shot object detection, etc.</p>
+
+<p>GitHub Repo: <a href="https://github.com/TracyYXChen/huggingFaceTutorial" target="_blank" rel="noopener">huggingFaceTutorial</a></p>
+
+<p>First, download transformers:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install transformers
+</code></pre></div></div>
+<p>Import transformers:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from transformers import pipeline
+</code></pre></div></div>
+<h3 id="sentiment-analysis">Sentiment Analysis</h3>
+<p>In sentiment analysis, the model predicts the emotional tone of the text: positive, negative, or neutral.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sentence = "We’ve done a lot since the lab launched in 1983 and we’re looking forward to what faculty and students contribute in the next 40 years"
+classifier = pipeline(task="sentiment-analysis")
+preds = classifier(sentence)
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+print(preds)
+</code></pre></div></div>
+
+<p>output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[{'score': 0.9998, 'label': 'POSITIVE'}]
+</code></pre></div></div>
+
+<h3 id="language-modeling">Language Modeling</h3>
+<p>Language modeling predicts masked words in sentences.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>text = "2023 Commencement Honors the ‘Terrapin Grit’ of &lt;mask&gt; of UMD Graduates"
+fill_mask = pipeline(task="fill-mask")
+preds = fill_mask(text, top_k=3)
+</code></pre></div></div>
+
+<p>I asked the audience to guess the masked word, but no one had guessed it right. The ground truth is “thousands,” which is also the top-1 prediction returned by the transformer.</p>
+
+<h3 id="zero-shot-object-detection">Zero-shot Object Detection</h3>
+<p>Unlike traditional object detectors (e.g., the detector I showed before), zero-shot object detectors can predict labels not found in the training dataset, allowing us to identify custom labels without training a model on a new dataset.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import skimage
+import numpy as np
+from PIL import Image, ImageDraw
+
+# load check-point
+checkpoint = "google/owlvit-base-patch32"
+detector = pipeline(model=checkpoint, task="zero-shot-object-detection")
+
+# load image
+imgPath = "./symposiumPoster.jpeg"
+image = Image.open(imgPath).resize((600, 300))
+image = Image.fromarray(np.uint8(image)).convert("RGB")
+
+# provide candidate labels
+candidate_labels = ["poster", "yellow sofa", "green chair", "blue table cloth", "yellow table cloth"]
+
+predictions = detector(
+    image,
+    candidate_labels=candidate_labels,
+)
+
+# visualize predictions
+draw = ImageDraw.Draw(image)
+
+for prediction in predictions:
+    box = prediction["box"]
+    label = prediction["label"]
+    score = prediction["score"]
+    xmin, ymin, xmax, ymax = box.values()
+    draw.rectangle((xmin, ymin, xmax, ymax), outline="red", width=1)
+    draw.text((xmin, ymin), f"{label}: {round(score,2)}", fill="white")
+</code></pre></div></div>
+
+<p>output:</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="discussions">Discussions</h3>
+<p>The tutorial ended with participants sharing their planned use cases for Hugging Face. Some exciting applications included food image analysis, survey response text analysis, hate speech classification, and image segmentation. I look forward to seeing more people unlock the potential of ML on their laptops!</p>
+
+    </div>
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "tracyyxchen/tracyyxchen.github.io",
+        "data-repo-id": "",
+        "data-category": "Comments",
+        "data-category-id": "DIC_kwDOA5PmLc4CTBt6",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript">comments powered by giscus.</a></noscript>
+</div>
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        &copy; Copyright 2023 Yuexi (Tracy)  Chen. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>

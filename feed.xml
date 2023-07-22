@@ -1,11 +1,843 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://tracyyxchen.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tracyyxchen.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-12T03:59:48+00:00</updated><id>https://tracyyxchen.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Why do I analyze tennis data</title><link href="https://tracyyxchen.github.io/blog/2023/inception/" rel="alternate" type="text/html" title="Why do I analyze tennis data" /><published>2023-06-11T00:00:00+00:00</published><updated>2023-06-11T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/inception</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/inception/"><![CDATA[<h3 id="passion-for-tennis">Passion for tennis</h3>
-<p>I played varsity tennis when I was an undergrad in China. Currently, I live in Maryland and actively play in USTA/UTR leagues in the DMV area. I’ve also traveled to tournaments like US Open and WTA finals. Here is <a href="https://www.google.com/maps/d/viewer?mid=1GRiYfEKGLojztDRf_SbnKBUKRliBxOM&amp;hl=en&amp;usp=sharing">a map</a> of the tennis courts I’ve visited on the earth.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://tracyyxchen.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tracyyxchen.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-22T03:58:42+00:00</updated><id>https://tracyyxchen.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">about/自我介绍</title><link href="https://tracyyxchen.github.io/blog/2023/about/" rel="alternate" type="text/html" title="about/自我介绍" /><published>2023-07-20T00:00:00+00:00</published><updated>2023-07-20T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/about</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/about/"><![CDATA[<p>中文版在最下方</p>
 
-<h3 id="proficiency-in-data-analysis">Proficiency in data analysis</h3>
-<p>As a computer science Ph.D. student, I am a trained data scientist.</p>
+<h2 id="about-me">About me</h2>
 
-<h3 id="players-to-analyze">Players to analyze</h3>
-<p>Carlos Alcaraz, Elena Rybakina, Iga Świątek, and Chinese tennis players: Qinwen Zheng, Juncheng Shang, Yibing Wu, etc.</p>
+<p>Hi, I’m Yuexi (Tracy) Chen, a computer science Ph.D. student working on human-AI interaction <a href="https://hcil.umd.edu/" target="_blank" rel="noopener">at the University of Maryland</a>. I developed AI-assisted tools for designers/creators (some projects collaborated with Adobe). In the future, I plan to either join a startup or start my own company.</p>
 
-<p>GitHub repo: <a href="https://github.com/TracyYXChen/tennis-data">https://github.com/TracyYXChen/tennis-data</a></p>]]></content><author><name></name></author><category term="general" /><summary type="html"><![CDATA[Passion for tennis I played varsity tennis when I was an undergrad in China. Currently, I live in Maryland and actively play in USTA/UTR leagues in the DMV area. I’ve also traveled to tournaments like US Open and WTA finals. Here is a map of the tennis courts I’ve visited on the earth.]]></summary></entry></feed>
+<p>I come from <a href="https://en.wikipedia.org/wiki/Neijiang" target="_blank" rel="noopener">Neijiang</a>, a city on the bank of a tributary of the Yangtze River in Sichuan Province, China. If you’ve read <a href="https://en.wikipedia.org/wiki/River_Town:_Two_Years_on_the_Yangtze" target="_blank" rel="noopener">River Town by Peter Hessler</a>, my life is like a sequel to the book: my mom attended a teachers’ college and later became an English teacher. I received my B.S. from the <a href="https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China" target="_blank" rel="noopener">University of Science and Technology of China (USTC)</a>, a university in <a href="https://en.wikipedia.org/wiki/Hefei" target="_blank" rel="noopener">Hefei</a>, Anhui Province; hence I consider Hefei my second hometown.</p>
+
+<p>When I am not coding, I am usually playing tennis. I was on the varsity team when I was an undergrad and participated in collegiate tennis competitions (10% competitive as NCAA Division I, as we typically train for 2-4 hours a week). I currently play in the women’s and mixed doubles leagues of the United States Tennis Association as an <a href="https://www.usta.com/content/dam/usta/pdfs/10013_experience_player_ntrp_guidelines.pdf" target="_blank" rel="noopener">NTRP 3.5 player</a>. Inspired by the movie <em>Moneyball</em>, I also conduct <a href="https://github.com/TracyYXChen/tennis-data" target="_blank" rel="noopener">tennis data analytics</a>. Here is <a href="https://www.google.com/maps/d/viewer?mid=1GRiYfEKGLojztDRf_SbnKBUKRliBxOM&amp;hl=en&amp;usp=sharing">a map</a> of the tennis courts I’ve visited on the earth.</p>
+
+<h2 id="blog-content">Blog Content</h2>
+
+<ul>
+  <li><strong>Machine Learning/Data Science</strong>: I use <a href="https://medium.com/@tracyyxchen" target="_blank" rel="noopener">Medium</a> to document my projects and lectures. However, as Medium limits the number of blogs that non-paying users can access, I decide to mirror the content on my personal website.</li>
+  <li><strong>Personal Reflections (in Chinese)</strong>: Though I’m a native Chinese speaker, I started learning about machine learning and data science after coming to the United States, so I am not familiar with the related Chinese terminologies. Instead, I plan to write personal reflections in Chinese.</li>
+</ul>
+
+<h2 id="planned-updates">Planned Updates</h2>
+
+<ul>
+  <li>Technical Blogs (every 2-3 months)</li>
+  <li>Chinese Blogs (every 3-4 months)</li>
+  <li>In Total: 7-10 articles per year.</li>
+</ul>
+
+<h2 id="自我介绍">自我介绍</h2>
+<p>我叫陈玥西，简称Tracy，目前在美国马里兰大学计算机系读博士，方向是<a href="https://hcil.umd.edu/" target="_blank" rel="noopener">人机交互</a>。我博士课题的其中一部分是探索给设计师和创作者使用的新型工具（和Adobe公司的合作项目）。我打算今后加入创业公司或者自己创业。</p>
+
+<p>我来自内江，一座四川中南部的五线城市，有一条长江的支流穿城而过。如果你读过<a href="https://m.douban.com/book/subject/7060185/" target="_blank" rel="noopener">彼得海斯勒的《江城》</a>，那么我的人生仿佛是它的续集：像那些涪陵师范的学生一样，我妈妈师范毕业后也成为了一名英语老师。我本科毕业于中国科学技术大学（1314），在合肥留下了一些难忘的回忆，因此我也认为合肥是我的第二故乡。</p>
+
+<p>当我不写代码的时候，我往往在打网球。我从小打乒乓球，上大学之后改练网球，后来加入了校队，曾经代表科大参加大学生网球比赛（甲组，非特长生）。我目前作为NTRP3.5选手参加美国网球协会的女子和混双联赛。我喜欢一部叫<a href="https://movie.douban.com/subject/3023164/">点球成金</a>的电影，因此我偶尔也做<a href="https://github.com/TracyYXChen/tennis-data" target="_blank" rel="noopener">网球数据分析</a>。我有一张<a href="https://www.google.com/maps/d/viewer?mid=1GRiYfEKGLojztDRf_SbnKBUKRliBxOM&amp;hl=en&amp;usp=sharing">谷歌地图</a>记录地球上我去过的网球场。</p>
+
+<h2 id="博客内容">博客内容</h2>
+<ul>
+  <li>机器学习/数据科学（英文）：我一直用<a href="https://medium.com/@tracyyxchen" target="_blank" rel="noopener">Medium</a>来记录小型项目和讲座。然而Medium限制非付费用户可以访问的博客数量，于是我决定在个人网站上同步相关内容。</li>
+  <li>个人感悟（中文）：我不打算写中文技术博客，因为我来美国之后才开始了解机器学习和数据科学，不清楚许多术语的中文表述。</li>
+</ul>
+
+<h2 id="计划更新">计划更新</h2>
+<ul>
+  <li>技术博客（每两到三个月）</li>
+  <li>中文博客（每三到四个月）</li>
+  <li>总共：每年7-10篇</li>
+</ul>]]></content><author><name></name></author><category term="general" /><category term="中文" /><summary type="html"><![CDATA[中文版在最下方]]></summary></entry><entry><title type="html">Unlock the power of AI on your laptop - an introduction to Hugging Face</title><link href="https://tracyyxchen.github.io/blog/2023/huggingface/" rel="alternate" type="text/html" title="Unlock the power of AI on your laptop - an introduction to Hugging Face" /><published>2023-06-06T00:00:00+00:00</published><updated>2023-06-06T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/huggingface</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/huggingface/"><![CDATA[<p>During the <a href="https://hcil.umd.edu/hcil-symposium-2023/" target="_blank" rel="noopener">40th HCIL Symposium</a>, I gave a tutorial on Hugging Face, a powerful machine learning (ML) platform that offers user-friendly APIs. In addition, incorporating UMD themes made the experience more enjoyable, which served as a fun backdrop.</p>
+
+<p>As someone who has used Hugging Face for my research, I was impressed by its user-friendliness and the scope of its ML APIs. The tutorial targeted HCI/UX researchers and hobbyists with a limited computing budget but are interested in exploring new features with potential ML capabilities or in making inferences with pre-trained models.</p>
+
+<p><strong>Outline:</strong></p>
+<ul>
+  <li>HuggingChat</li>
+  <li>Spaces: online ML applications</li>
+  <li>Transformers, a Python package</li>
+</ul>
+
+<h2 id="1-huggingchat">1. HuggingChat</h2>
+
+<p>HuggingChat is a chatbot built on open-source models (currently, it’s built on OpenAssistant LLaMa 30B SFT 6). I also compared its output with closed-source models (OpenAI’s GPT-4 and Google’s Bard)</p>
+
+<p><strong>Prompt:</strong> <em>suggest some themed lunch table ideas for an HCI symposium</em></p>
+
+<p><strong>HuggingChat:</strong></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>I found those named ideas delightful.</p>
+
+<p><strong>GPT-4:</strong></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>GPT-4 suggests broad discussion topics along with table decorations. However, it had its quirks — point 5, “make sure the table is accessible to everyone,” seemed more in line with on-screen table designs rather than physical tables!</p>
+
+<p><strong>Google Bard:</strong></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>I’m surprised that Bard does not return any discussion points but focuses on decorations and food exclusively, offering suggestions right down to specifics like grilled cheese sandwiches 😅</p>
+
+<p><strong>Humans</strong></p>
+
+<p>On the human side of things, the HCIL symposium has three themed lunch tables this year:</p>
+
+<ul>
+  <li>Robotics Education</li>
+  <li>Teams/creativity</li>
+  <li>LLMs and the future of AI as a writing assistant</li>
+</ul>
+
+<p>It seems LLMs are too humble to suggest themselves as lunch table ideas! 🤷‍♀</p>
+
+<h2 id="2-hugging-face-spaces">2. Hugging Face Spaces</h2>
+<p>Next, we looked at Spaces, online demos of machine-learning applications.</p>
+
+<h3 id="object-detection-space-link">Object detection (<a href="https://huggingface.co/spaces/eddie5389/Object-Detection-With-DETR-and-YOLOS" target="_blank" rel="noopener">space link</a>)</h3>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig6.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>For instance, I demonstrated an object detection Space by uploading a photo taken at the <a href="https://dining.umd.edu/yahentamitsi-virtual-tour" target="_blank" rel="noopener">Yahentamitsi dining hall</a>. The model could identify objects within the photo, such as a backpack, pizza, and persons. (Note that it can’t return labels that are not in the training dataset, here is a <a href="https://gist.github.com/AruniRC/7b3dadd004da04c80198557db5da4bda" target="_blank" rel="noopener">list of supported labels</a> in this Space)</p>
+
+<h3 id="clip-interrogator-space-link">CLIP Interrogator (<a href="https://huggingface.co/spaces/pharma/CLIP-Interrogator" target="_blank" rel="noopener">space link</a>)</h3>
+<p>Another intriguing Space is the CLIP Interrogator, which generates potential text prompts based on an image. Let’s see what text prompts will be suggested for a photo of our <a href="https://goo.gl/maps/khGiycsZTLCFon4T8" target="_blank" rel="noopener">Testudo</a> during final exam weeks😏</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig7-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig7-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig7-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig7.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>If I use the output verbatim as input for Stable Diffusion, one of the generated images is: 😆</p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h2 id="3-transformers-a-python-package">3. Transformers, a Python package</h2>
+<p>Hugging Face offers a variety of Python packages, including Transformers, which can be used for numerous tasks, such as Natural Language Processing (NLP), Computer Vision (CV), and audio processing. I demonstrated how to use it for sentiment analysis, language modeling, zero-shot object detection, etc.</p>
+
+<p>GitHub Repo: <a href="https://github.com/TracyYXChen/huggingFaceTutorial" target="_blank" rel="noopener">huggingFaceTutorial</a></p>
+
+<p>First, download transformers:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install transformers
+</code></pre></div></div>
+<p>Import transformers:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from transformers import pipeline
+</code></pre></div></div>
+<h3 id="sentiment-analysis">Sentiment Analysis</h3>
+<p>In sentiment analysis, the model predicts the emotional tone of the text: positive, negative, or neutral.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sentence = "We’ve done a lot since the lab launched in 1983 and we’re looking forward to what faculty and students contribute in the next 40 years"
+classifier = pipeline(task="sentiment-analysis")
+preds = classifier(sentence)
+preds = [{"score": round(pred["score"], 4), "label": pred["label"]} for pred in preds]
+print(preds)
+</code></pre></div></div>
+
+<p>output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[{'score': 0.9998, 'label': 'POSITIVE'}]
+</code></pre></div></div>
+
+<h3 id="language-modeling">Language Modeling</h3>
+<p>Language modeling predicts masked words in sentences.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>text = "2023 Commencement Honors the ‘Terrapin Grit’ of &lt;mask&gt; of UMD Graduates"
+fill_mask = pipeline(task="fill-mask")
+preds = fill_mask(text, top_k=3)
+</code></pre></div></div>
+
+<p>I asked the audience to guess the masked word, but no one had guessed it right. The ground truth is “thousands,” which is also the top-1 prediction returned by the transformer.</p>
+
+<h3 id="zero-shot-object-detection">Zero-shot Object Detection</h3>
+<p>Unlike traditional object detectors (e.g., the detector I showed before), zero-shot object detectors can predict labels not found in the training dataset, allowing us to identify custom labels without training a model on a new dataset.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import skimage
+import numpy as np
+from PIL import Image, ImageDraw
+
+# load check-point
+checkpoint = "google/owlvit-base-patch32"
+detector = pipeline(model=checkpoint, task="zero-shot-object-detection")
+
+# load image
+imgPath = "./symposiumPoster.jpeg"
+image = Image.open(imgPath).resize((600, 300))
+image = Image.fromarray(np.uint8(image)).convert("RGB")
+
+# provide candidate labels
+candidate_labels = ["poster", "yellow sofa", "green chair", "blue table cloth", "yellow table cloth"]
+
+predictions = detector(
+    image,
+    candidate_labels=candidate_labels,
+)
+
+# visualize predictions
+draw = ImageDraw.Draw(image)
+
+for prediction in predictions:
+    box = prediction["box"]
+    label = prediction["label"]
+    score = prediction["score"]
+    xmin, ymin, xmax, ymax = box.values()
+    draw.rectangle((xmin, ymin, xmax, ymax), outline="red", width=1)
+    draw.text((xmin, ymin), f"{label}: {round(score,2)}", fill="white")
+</code></pre></div></div>
+
+<p>output:</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hugging-face/fig5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hugging-face/fig5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hugging-face/fig5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hugging-face/fig5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="discussions">Discussions</h3>
+<p>The tutorial ended with participants sharing their planned use cases for Hugging Face. Some exciting applications included food image analysis, survey response text analysis, hate speech classification, and image segmentation. I look forward to seeing more people unlock the potential of ML on their laptops!</p>]]></content><author><name></name></author><category term="machine-learning" /><summary type="html"><![CDATA[a short tutorial given at the HCIL symposium 2023]]></summary></entry><entry><title type="html">State-of-the-“art”’:’ machine learning for graphics and UI designs</title><link href="https://tracyyxchen.github.io/blog/2022/sota/" rel="alternate" type="text/html" title="State-of-the-“art”’:’ machine learning for graphics and UI designs" /><published>2022-08-27T00:00:00+00:00</published><updated>2022-08-27T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2022/sota</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2022/sota/"><![CDATA[<p>Before starting my summer internship at Adobe Research last year, I read several papers about machine learning for design. While none of my intern projects focused on this, I found the research fascinating, so at the <a href="https://hcil.umd.edu/2022-symposium/" target="_blank" rel="noopener">HCIL symposium 2022</a>, I gave a 1-hour talk on the research progress of ML for graphics and UI design. Inspired by one of the attendees — <a href="https://twitter.com/haldaume3/status/1529811573942132738?cxt=HHwWhIDR4a3h_boqAAAA" target="_blank" rel="noopener">Prof. Hal Daumé III’s Tweetstorm</a> — I wrote this post to share a skimmable version of the talk.</p>
+
+<p><strong>Talk format</strong>:</p>
+
+<p>I focus on two topics: <strong>“find design examples/inspirations”</strong> and <strong>“generate layout automatically”</strong> via an informal literature review of selected papers published at top-tier machine learning/human-computer interaction conferences/journals,</p>
+
+<p>The symposium talk was hybrid: ~40 attendees joined the talk, and half joined virtually; some were designers or students in design-related majors, and some are ML/HCI researchers. Thanks to <a href="https://www.slido.com/" target="_blank" rel="noopener">Slido</a>, I collected primary data about audiences’ preferences on features enabled by machine learning/data-driven methods.</p>
+
+<p><strong>Table of contents</strong>:</p>
+
+<p>Part 1: Find design examples/inspirations</p>
+
+<ul>
+  <li>by Cascading Style Sheets (CSS) properties</li>
+  <li>by descriptive words</li>
+  <li>by visual properties</li>
+  <li>by images</li>
+  <li>by a chatbot</li>
+</ul>
+
+<p>Part 2: Generate layout automatically</p>
+
+<ul>
+  <li>by constraints</li>
+  <li>by “energies” (design guidelines)</li>
+  <li>by keywords/categories</li>
+  <li>by spatial relations with background and embellishments</li>
+</ul>
+
+<h2 id="part-1-find-design-examplesinspirations">Part 1: Find design examples/inspirations</h2>
+
+<p><strong>Motivation</strong>: Designers routinely seek inspiration. Findings from <a href="https://arxiv.org/pdf/2102.05216.pdf" target="_blank" rel="noopener">a study with 24 UI/UX designers</a> found that most searched keywords on Google, Behance, Pinterest, etc., and collected search results in different aspects: layout variations (N=22), font styles (N=14), color palettes (N=11).</p>
+
+<p><strong>Pain points</strong>:</p>
+<ul>
+  <li>It’s difficult to find the right textual description to search for</li>
+  <li>It’s time-consuming to find good examples</li>
+  <li>Search results do not meet the design requirement</li>
+</ul>
+
+<p>How can machine learning/data-driven methods help?</p>
+
+<h3 id="11-search-by-cascading-style-sheets-css-properties">1.1 search by Cascading Style Sheets (CSS) properties</h3>
+<p>Cascading Style Sheets (CSS) is a style sheet language decorating web content. Users can choose any part on a webpage and inspect information about font family/size, color, padding, etc. (Read about how to do it.)</p>
+
+<p><a href="http://vis.stanford.edu/files/2013-Webzeitgeist-CHI.pdf" target="_blank" rel="noopener">Researchers downloaded 100k+ web pages and built a giant database</a>. Users can search design examples in the database by CSS properties, e.g., font size, widget position, and global page layout. Here are some search results:</p>
+
+<ul>
+  <li>designs with font size &gt; 100px</li>
+</ul>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<ul>
+  <li>designs with the search bar in the middle of a page:</li>
+</ul>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<ul>
+  <li>designs for global layout given a layout query (leftmost)</li>
+</ul>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="what-attendees-said">What attendees said:</h3>
+<p>One of the attendees expressed concerns about searching by CSS properties, as the same widget could be named differently across webpages (e.g., carousel vs. slider).</p>
+
+<h3 id="12-search-by-descriptive-words">1.2 Search by descriptive words</h3>
+<p><a href="https://dritchie.github.io/pdf/dtour.pdf" target="_blank" rel="noopener">Researchers have also mapped descriptive words with Document Object Model (DOM) and CSS properties</a>. Users can type descriptive words directly; after translation, the search engine will retrieve results based on the definition of CSS properties.</p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="what-attendees-said-1">What attendees said:</h3>
+<p>Designers in attendance shared keywords they usually use:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>minimal/minimalism/minimalistic
+
+neat/clean/simple/easy
+
+colorful/bright
+
+cheerful/fun
+
+dark
+</code></pre></div></div>
+
+<h3 id="13-retrieve-images-by-visual-properties">1.3 Retrieve images by visual properties</h3>
+<p>In the pre-deep-learning era, retrieving similar images by visual properties achieved reasonably good results. For example, by combining color histogram and Histogram of Oriented Gradients (HOG), <a href="https://arxiv.org/pdf/1505.01214.pdf" target="_blank" rel="noopener">researchers have found stylistically similar infographics</a>.</p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="14-retrieve-images-by-image-embeddings">1.4 Retrieve images by image embeddings</h3>
+<p>Neural network-based methods allow users to search for similar UIs by high-fidelity screenshots, wireframes, sketches, and even partial sketches.</p>
+
+<p><a href="https://arxiv.org/abs/2102.05216" target="_blank" rel="noopener">Search similar UI designs by high-fidelity screenshots</a>.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig6.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p><a href="https://arxiv.org/abs/2102.05216" target="_blank" rel="noopener">Search similar UI designs by wireframes</a>.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig7-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig7-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig7-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig7.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p><a href="https://dl.acm.org/doi/fullHtml/10.1145/3290605.3300334" target="_blank" rel="noopener">Search similar UI designs by sketches</a></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig8-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig8.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>Although the above methods take different inputs, they adopt the same approach: learning image embeddings (a low-dimensional vector representation) and performing nearest neighbor searches.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig9-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig9-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig9-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig9.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<div class="caption">
+    An illustration of embedding space of UIs adapted from
+    <a href="https://dl.acm.org/doi/fullHtml/10.1145/3290605.3300334">Swire: Sketch-based User Interface Retrieval</a>
+</div>
+
+<h3 id="15-retrieve-images-by-chatbots">1.5 Retrieve images by chatbots</h3>
+<p>Chatbots could help users find design examples in a database via conversations.</p>
+
+<p><a href="https://userinterfaces.aalto.fi/hey_gui/" target="_blank" rel="noopener">An example chatbot that helps users retrieve UI examples</a></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig10-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig10-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig10-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig10.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="what-attendees-said-2">What attendees said:</h3>
+<p>23 attendees voted for their preferred methods to find design examples/inspirations (note: multiple selections were allowed; see figure below). Searching by wireframes was the most popular (65%), followed by high-fidelity screenshots (57%), while searching by chatbot (26%) and stylistic keywords (22%) were less popular. This is likely because designers found keyword-based search results to be too broad.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig12-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig12-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig12-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig12.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h2 id="part-2-generate-layout-automatically">Part 2: Generate layout automatically</h2>
+<p>Motivation: When seeking inspiration, most designers (22 out of 24) collect layout-related examples. If machine learning could automate the layout creation process, that would be a great time saver. Below I discuss options for doing this.</p>
+
+<h3 id="21-generate-layout-based-on-constraints">2.1 Generate layout based on constraints</h3>
+<p><a href="https://www.youtube.com/watch?v=y8pTC6FEsKc" target="_blank" rel="noopener">Scout</a> generates feasible layouts given constraints specified by users. Constraints could be non-overlapping, minimal sizes, alignment, visual hierarchy (paddings within groups), emphasis (can’t decrease the size of an important element), etc.</p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig13-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig13-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig13-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig13.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="what-attendees-said-3">What attendees said:</h3>
+<p>Designers shared typical constraints they encountered, including:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>information hierarchy
+
+branding requirements
+
+headers and footers
+</code></pre></div></div>
+
+<h2 id="22-generate-layout-based-on-energies-design-guidelines">2.2 Generate layout based on “energies” (design guidelines)</h2>
+<p><a href="http://www.dgp.toronto.edu/~donovan/design/index.html" target="_blank" rel="noopener">DesignScape</a> generates layouts by minimizing design guideline violations (“energies”). Design guideline violations include alignment violations, balance violations, overlap, etc.</p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig14-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig14-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig14-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig14.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<div class="caption">
+    Left: random layout; right: after minimizing design guideline violations.
+</div>
+
+<p><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/a33-yang.pdf" target="_blank" rel="noopener">Automatic Generation of Visual-Textual Presentation Layout</a></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig15-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig15-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig15-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig15.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="23-generate-layout-based-on-keywordscategories">2.3 Generate layout based on keywords/categories</h3>
+<p>Researchers have trained Generative Adversarial Networks (GAN) to generate magazine layouts based on images, text, and magazine categories. Below are different magazine layouts generated for the same image but with different keywords.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig16-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig16-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig16-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig16.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<div class="caption">
+    (Content-aware generative modeling of graphic design layouts)[https://xtqiao.com/projects/content_aware_layout/]{:target="_blank" rel="noopener"}
+</div>
+
+<h3 id="24-generate-layout-based-on-spatial-relations">2.4 Generate layout based on spatial relations</h3>
+<p>Researchers have also <a href="https://arxiv.org/abs/1912.09421" target="_blank" rel="noopener">modeled spatial relations among objects like graphs and trained Graph Convolutional Networks (GCN)</a> to generate designs satisfying such relations.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig17-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig17-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig17-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig17.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="25-generate-layout-with-background-and-embellishments">2.5 Generate layout with background and embellishments</h3>
+<p>Most ML methods generate layouts using only given assets. A prototype called Vinci could suggest 
+<a href="https://www.youtube.com/watch?v=XNA0diI-LXg" target="_blank" rel="noopener">background and embellishments</a>. Vinci views the design process as linear design sequences and leverages a sequence-to-sequence Variational Autoencoder (VAE) to select background and embellishments.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig18-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig18-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig18-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig18.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h3 id="what-attendees-said-4">What attendees said:</h3>
+<p>21 attendees voted for their favorite layout generation methods. <a href="https://www.youtube.com/watch?v=XNA0diI-LXg" target="_blank" rel="noopener">Vinci</a> garnered the most votes (62%), followed by spatial relations (48%). Full results are below:</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/state-of-the-art/fig20-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/state-of-the-art/fig20-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/state-of-the-art/fig20-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/state-of-the-art/fig20.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<h2 id="takeaways">Takeaways:</h2>
+<ul>
+  <li>Some important ML techniques don’t lead to popular features, e.g., search design examples by chatbots (note: the talk was given before ChatGPT released).</li>
+  <li>The same ML component could lead to features with varied popularity, e.g., searching by wireframe is more popular than searching by high-fidelity/sketches.</li>
+  <li>Designers are eager to adopt such techniques! One designer even asked whether it’s possible to download one of the “tools.” Unfortunately, it’s only research code: no server, no front-end 🤷‍♀</li>
+</ul>
+
+<h2 id="further-reading">Further reading:</h2>
+<p>Some papers don’t fall into the above two topics but are still interesting to read:</p>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2110.07775" target="_blank" rel="noopener">Create UI by natural language descriptions</a></li>
+  <li><a href="https://arxiv.org/pdf/2001.05308.pdf" target="_blank" rel="noopener">UI auto-completion</a></li>
+  <li><a href="https://link.springer.com/chapter/10.1007/978-3-030-82681-9_8" target="_blank" rel="noopener">How Material Design is used on mobile UIs</a></li>
+  <li><a href="https://faculty.washington.edu/ajko/papers/Swearngin2018Rewire.pdf" target="_blank" rel="noopener">Extract wireframes from screenshots</a></li>
+</ul>]]></content><author><name></name></author><category term="machine-learning" /><summary type="html"><![CDATA[a 1-hour tutorial talk given at the HCIL symposium 2022]]></summary></entry><entry><title type="html">ScholarInsight</title><link href="https://tracyyxchen.github.io/blog/2020/scholarInsight/" rel="alternate" type="text/html" title="ScholarInsight" /><published>2020-12-21T00:00:00+00:00</published><updated>2020-12-21T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2020/scholarInsight</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2020/scholarInsight/"><![CDATA[<p>ScholarInsight was my course project for <a href="https://sites.umiacs.umd.edu/elm/teaching/inst-760-data-visualization/" target="_blank" rel="noopener">INST760</a> in 2020 Fall. I deployed it to Google Web Store for a while but took it down after a Chrome update broke my code.</p>
+<ul>
+  <li><a href="https://youtu.be/7-C5sBFzqNc" target="_blank" rel="noopener">video demo</a></li>
+  <li><a href="https://github.com/TracyYXChen/ScholarInsight" target="_blank" rel="noopener">GitHub repo</a></li>
+</ul>
+
+<h2 id="limitations-of-google-scholar">Limitations of Google Scholar</h2>
+<p>Despite its popularity, Google Scholar provides limited user interactions on scholars’ profile pages: papers can only be sorted by year or citations. While it’s easy for people to identify the most cited or recent papers, it’s hard to spot papers published a few years ago but gradually gained more attraction. Besides, Google Scholar treats all citations from papers of different authorships equally.</p>
+
+<h2 id="scholarinsight">ScholarInsight</h2>
+<p>At first, I thought about creating interactive data visualizations based on offline datasets. However, citations change every day, so I decided to build an online tool to visualize the latest citation data. Therefore, I created a Chrome web browser extension called ScholarInsight. As a Chrome extension, it can easily be applied to any Google Scholar profile.</p>
+
+<p>Here is what ScholarInsight looks like:</p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/scholarInsight/fig1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>ScholarInsight creates a side panel for any Google Scholar profile page. The primary view is a scatter plot, of which the x-axis is the published year and the y-axis is the number of citations. Each colored dot represents a paper: orange denotes first-author papers, blue denotes last-author papers, and grey denotes other papers. ScholarInsight also calculates the author’s median citation for each year and connects them via a dashed line.</p>
+
+<p>ScholarInsight provides several ways for users to interact with:</p>
+
+<ul>
+  <li><strong>Filter</strong>: users can filter papers by checking/unchecking paper type boxes; currently ScholarInsight supports first-author, last-author, and other types.</li>
+  <li><strong>Scale-transform</strong>: users can choose linear or log-scale for citations</li>
+  <li><strong>Zoom/pan</strong>: users can either click the zoom buttons or use the mouse wheel to zoom; users can also pan the visualization by dragging it.</li>
+  <li><strong>Tooltips</strong>: users can hover on the dot, and click it to show detailed information about that paper.</li>
+</ul>
+
+<h2 id="insights-uncovered-by-scholarinsight">Insights uncovered by ScholarInsight</h2>
+
+<ul>
+  <li>
+    <h3 id="a-best-paper">a best paper</h3>
+  </li>
+</ul>
+
+<p>Let’s zoom in and take a look at the recent first-author publications of this researcher:</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/scholarInsight/fig2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>a paper published in 2018 that is way above the median citation line (the dot becomes larger because we hovered on it), and if we click it, it’s “Data Illustrator.” The paper won the best paper award of the CHI (Computer-Human Interaction) conference. It is also a popular data visualization authoring tool: Data Illustrator has its own Twitter account and has attracted 1200+ followers.</p>
+
+<p>Sometimes the linear scale doesn’t work well; for example, let’s look at this researcher’s profile:</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/scholarInsight/fig3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>At first glimpse, something went wrong. Why is there only one dot? Oh wait, that’s because one paper has more than 17k citations; thus, all papers are pushed to the bottom. In this case, we can switch to the log-scale.</p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/scholarInsight/fig4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<ul>
+  <li>
+    <h3 id="career-transitions">career transitions</h3>
+    <p>If we only look at the first-author and last-author papers, we can see a rough boundary: this researcher started to have last-author papers after 2009. What happened? Well, yes, he became a professor around that time. For productive authors, more than one paper published in the same year may have the same number of citations, so ScholarInsight also jittered the data to avoid visual clutter.</p>
+  </li>
+</ul>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/scholarInsight/fig5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>Above is the profile of Andrew Ng, a renowned machine-learning researcher. Why has he had many first-author papers in recent years when he’s already a tenured professor? It turned out that he spent more time introducing artificial intelligence to a broader audience, so he started to publish less technical papers, like this one: Artificial intelligence is the new electricity.</p>
+
+<h2 id="user-studies">User studies</h2>
+<p>I conducted informal user study sessions of three female computer science Ph.D. students. In their research fields, authorship order is contribution-based. They applied ScholarInsight to one of the researchers they know and shared their findings. For example, they quickly identified the most-cited first/last-author papers. One participant disappointedly found that although the researcher she chose has hundreds of citations, none are first or last-author papers.</p>
+
+<p>In the future, ScholarInsight could help novice researchers or students who apply for graduate schools.</p>]]></content><author><name></name></author><category term="data-visualization" /><summary type="html"><![CDATA[a Chrome Browser Extension for Visualizing Google Scholar Profiles]]></summary></entry></feed>

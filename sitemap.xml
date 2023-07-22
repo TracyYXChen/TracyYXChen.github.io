@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://tracyyxchen.github.io/blog/2023/inception/</loc>
-<lastmod>2023-06-11T00:00:00+00:00</lastmod>
+<loc>https://tracyyxchen.github.io/blog/2020/scholarInsight/</loc>
+<lastmod>2020-12-21T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/2022/sota/</loc>
+<lastmod>2022-08-27T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/2023/huggingface/</loc>
+<lastmod>2023-06-06T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/2023/about/</loc>
+<lastmod>2023-07-20T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://tracyyxchen.github.io/</loc>
@@ -26,7 +38,22 @@
 <loc>https://tracyyxchen.github.io/teaching/</loc>
 </url>
 <url>
-<loc>https://tracyyxchen.github.io/blog/category/general/</loc>
+<loc>https://tracyyxchen.github.io/blog/tag/data-visualization/</loc>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/tag/machine-learning/</loc>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/tag/general/</loc>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/tag/%E4%B8%AD%E6%96%87/</loc>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/2020/</loc>
+</url>
+<url>
+<loc>https://tracyyxchen.github.io/blog/2022/</loc>
 </url>
 <url>
 <loc>https://tracyyxchen.github.io/blog/2023/</loc>
