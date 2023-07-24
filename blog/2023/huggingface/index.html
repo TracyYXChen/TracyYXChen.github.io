@@ -373,24 +373,16 @@ for prediction in predictions:
 
     Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
     document.getElementById("giscus_thread").appendChild(giscusScript);
-    const targetNode = document.getElementById('giscus_thread');
-    const observerOptions = {
-      childList: true,
-      subtree: true
-    };
-
-    const observer = new MutationObserver((mutationsList, observer) => {
-        for(let mutation of mutationsList) {
-            if (mutation.type === 'childList') {
-                let elements = document.getElementsByClassName('gsc-upvote-button');
-                for(let i=0; i < elements.length; i++){
-                    elements[i].style.display = 'none';
-                }
-            }
+    
+    window.onload = function() {
+      // Wait for a few seconds after window load, then hide the button
+      setTimeout(function() {
+        let elements = document.getElementsByClassName('gsc-upvote-button');
+        for(let i=0; i < elements.length; i++){
+          elements[i].style.display = 'none';
         }
-    });
-
-    observer.observe(targetNode, observerOptions);
+      }, 5000);  // wait 5000 milliseconds (5 seconds)
+    };
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript">comments powered by giscus.</a></noscript>
 </div>
