@@ -260,7 +260,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: [general, data-visualization, machine-learning, 中文] # these tags will be displayed on the front page of your blog
+display_tags: [human-computer-interaction, machine-learning, data-visualization, general] # these tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

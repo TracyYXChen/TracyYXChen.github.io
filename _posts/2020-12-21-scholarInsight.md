@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ScholarInsight 
+title: "ScholarInsight: a Chrome browser extension for visualizing Google Scholar profiles" 
 date: 2020-12-21
-description: a Chrome Browser Extension for Visualizing Google Scholar Profiles
+description: a course project for data visualization
 tag: data-visualization
 giscus_comments: true
 related_posts: false
