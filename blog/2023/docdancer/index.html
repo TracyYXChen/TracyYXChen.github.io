@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ScholarInsight: a Chrome browser extension for visualizing Google Scholar profiles | Yuexi (Tracy)  Chen</title>
+    <title>DocDancer: authoring ultra-responsive documents with layout generation | Yuexi (Tracy)  Chen</title>
     <meta name="author" content="Yuexi (Tracy)  Chen" />
-    <meta name="description" content="a course project for data visualization" />
+    <meta name="description" content="slides for VL/HCC 2023" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="/assets/img/tennis.png"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://tracyyxchen.github.io/blog/2020/scholarInsight/">
+    <link rel="canonical" href="https://tracyyxchen.github.io/blog/2023/docdancer/">
 
     <!-- Dark Mode -->
     
@@ -99,13 +99,13 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">ScholarInsight: a Chrome browser extension for visualizing Google Scholar profiles</h1>
-    <p class="post-meta">December 21, 2020</p>
+    <h1 class="post-title">DocDancer: authoring ultra-responsive documents with layout generation</h1>
+    <p class="post-meta">October 7, 2023</p>
     <p class="post-tags">
-      <a href="/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
       &nbsp; &middot; &nbsp;
-        <a href="/blog/tag/data-visualization">
-          <i class="fas fa-hashtag fa-sm"></i> data-visualization</a> &nbsp;
+        <a href="/blog/tag/human-computer-interaction">
+          <i class="fas fa-hashtag fa-sm"></i> human-computer-interaction</a> &nbsp;
           
 
     </p>
@@ -114,137 +114,7 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>ScholarInsight was my course project for <a href="https://sites.umiacs.umd.edu/elm/teaching/inst-760-data-visualization/" target="_blank" rel="noopener">INST760</a> in 2020 Fall. I deployed it to Google Web Store for a while but took it down after a Chrome update broke my code.</p>
-<ul>
-  <li><a href="https://youtu.be/7-C5sBFzqNc" target="_blank" rel="noopener">video demo</a></li>
-  <li><a href="https://github.com/TracyYXChen/ScholarInsight" target="_blank" rel="noopener">GitHub repo</a></li>
-</ul>
-
-<h2 id="limitations-of-google-scholar">Limitations of Google Scholar</h2>
-<p>Despite its popularity, Google Scholar provides limited user interactions on scholars’ profile pages: papers can only be sorted by year or citations. While it’s easy for people to identify the most cited or recent papers, it’s hard to spot papers published a few years ago but gradually gained more attraction. Besides, Google Scholar treats all citations from papers of different authorships equally.</p>
-
-<h2 id="scholarinsight">ScholarInsight</h2>
-<p>At first, I thought about creating interactive data visualizations based on offline datasets. However, citations change every day, so I decided to build an online tool to visualize the latest citation data. Therefore, I created a Chrome web browser extension called ScholarInsight. As a Chrome extension, it can easily be applied to any Google Scholar profile.</p>
-
-<p>Here is what ScholarInsight looks like:</p>
-
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig1-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig1-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig1-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/scholarInsight/fig1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-
-  </picture>
-
-</figure>
-
-<p>ScholarInsight creates a side panel for any Google Scholar profile page. The primary view is a scatter plot, of which the x-axis is the published year and the y-axis is the number of citations. Each colored dot represents a paper: orange denotes first-author papers, blue denotes last-author papers, and grey denotes other papers. ScholarInsight also calculates the author’s median citation for each year and connects them via a dashed line.</p>
-
-<p>ScholarInsight provides several ways for users to interact with:</p>
-
-<ul>
-  <li><strong>Filter</strong>: users can filter papers by checking/unchecking paper type boxes; currently ScholarInsight supports first-author, last-author, and other types.</li>
-  <li><strong>Scale-transform</strong>: users can choose linear or log-scale for citations</li>
-  <li><strong>Zoom/pan</strong>: users can either click the zoom buttons or use the mouse wheel to zoom; users can also pan the visualization by dragging it.</li>
-  <li><strong>Tooltips</strong>: users can hover on the dot, and click it to show detailed information about that paper.</li>
-</ul>
-
-<h2 id="insights-uncovered-by-scholarinsight">Insights uncovered by ScholarInsight</h2>
-
-<ul>
-  <li>
-    <h3 id="a-best-paper">a best paper</h3>
-  </li>
-</ul>
-
-<p>Let’s zoom in and take a look at the recent first-author publications of this researcher:</p>
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig2-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig2-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig2-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/scholarInsight/fig2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-
-  </picture>
-
-</figure>
-
-<p>a paper published in 2018 that is way above the median citation line (the dot becomes larger because we hovered on it), and if we click it, it’s “Data Illustrator.” The paper won the best paper award of the CHI (Computer-Human Interaction) conference. It is also a popular data visualization authoring tool: Data Illustrator has its own Twitter account and has attracted 1200+ followers.</p>
-
-<p>Sometimes the linear scale doesn’t work well; for example, let’s look at this researcher’s profile:</p>
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig3-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig3-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig3-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/scholarInsight/fig3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-
-  </picture>
-
-</figure>
-
-<p>At first glimpse, something went wrong. Why is there only one dot? Oh wait, that’s because one paper has more than 17k citations; thus, all papers are pushed to the bottom. In this case, we can switch to the log-scale.</p>
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig4-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig4-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig4-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/scholarInsight/fig4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-
-  </picture>
-
-</figure>
-
-<ul>
-  <li>
-    <h3 id="career-transitions">career transitions</h3>
-    <p>If we only look at the first-author and last-author papers, we can see a rough boundary: this researcher started to have last-author papers after 2009. What happened? Well, yes, he became a professor around that time. For productive authors, more than one paper published in the same year may have the same number of citations, so ScholarInsight also jittered the data to avoid visual clutter.</p>
-  </li>
-</ul>
-
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/scholarInsight/fig5-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/scholarInsight/fig5-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/scholarInsight/fig5-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/scholarInsight/fig5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-
-  </picture>
-
-</figure>
-
-<p>Above is the profile of Andrew Ng, a renowned machine-learning researcher. Why has he had many first-author papers in recent years when he’s already a tenured professor? It turned out that he spent more time introducing artificial intelligence to a broader audience, so he started to publish less technical papers, like this one: Artificial intelligence is the new electricity.</p>
-
-<h2 id="user-studies">User studies</h2>
-<p>I conducted informal user study sessions of three female computer science Ph.D. students. In their research fields, authorship order is contribution-based. They applied ScholarInsight to one of the researchers they know and shared their findings. For example, they quickly identified the most-cited first/last-author papers. One participant disappointedly found that although the researcher she chose has hundreds of citations, none are first or last-author papers.</p>
-
-<p>In the future, ScholarInsight could help novice researchers or students who apply for graduate schools.</p>
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRod9jlCYSbBdbMx_EipC6ZyZqSpH26lLi7fyUWA0dnbZkTL7dL82DY_9M7CfPOggS1p3Ty3gGD57bb/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
     </div>
   </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
