@@ -23,7 +23,8 @@ I developed AI-assisted tools for designers/creators (some projects collaborated
 
 
 [[LinkedIn](https://www.linkedin.com/in/yuexi-tracy-chen-9186631a9/){:target="_blank"}]
-[[Google Scholar](https://scholar.google.com/citations?user=eg8I0UUAAAAJ&hl=en){:target="_blank"}]
+[[X (Twitter)](https://twitter.com/tracyyxchen){:target="_blank"}]
 [[GitHub](https://github.com/TracyYXChen){:target="_blank"}]
 [[Medium](https://medium.com/@tracyyxchen){:target="_blank"}]
 [[Resume](https://drive.google.com/file/d/15w1ACv12TmkpGQWJcq5yf2cWHmwAGnlC/view?usp=sharing){:target="_blank"}]
+[[Google Scholar](https://scholar.google.com/citations?user=eg8I0UUAAAAJ&hl=en){:target="_blank"}]
