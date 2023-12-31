@@ -4,7 +4,7 @@ title: Why do I analyze tennis data
 date: 2023-06-11
 description: 
 categories: general
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 published: false
 ---

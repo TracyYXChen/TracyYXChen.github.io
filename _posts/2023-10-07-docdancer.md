@@ -4,7 +4,7 @@ title: "DocDancer: authoring ultra-responsive documents with layout generation"
 date: 2023-10-07
 description: slides for VL/HCC 2023
 tag: human-computer-interaction
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 published: true
 ---

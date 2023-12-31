@@ -4,7 +4,7 @@ title: "ScholarInsight: a Chrome browser extension for visualizing Google Schola
 date: 2020-12-21
 description: a course project for data visualization
 tag: data-visualization
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 published: true
 ---

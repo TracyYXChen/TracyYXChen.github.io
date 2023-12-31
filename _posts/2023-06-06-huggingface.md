@@ -4,7 +4,7 @@ title: Unlock the power of AI on your laptop - an introduction to Hugging Face
 date: 2023-06-06
 description: a short tutorial given at the HCIL symposium 2023
 tag: machine-learning
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 published: true
 ---
