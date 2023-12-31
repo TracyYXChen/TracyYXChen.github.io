@@ -1,5 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://tracyyxchen.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tracyyxchen.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-15T02:33:12+00:00</updated><id>https://tracyyxchen.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">DocDancer: authoring ultra-responsive documents with layout generation</title><link href="https://tracyyxchen.github.io/blog/2023/docdancer/" rel="alternate" type="text/html" title="DocDancer: authoring ultra-responsive documents with layout generation" /><published>2023-10-07T00:00:00+00:00</published><updated>2023-10-07T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/docdancer</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/docdancer/"><![CDATA[<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRod9jlCYSbBdbMx_EipC6ZyZqSpH26lLi7fyUWA0dnbZkTL7dL82DY_9M7CfPOggS1p3Ty3gGD57bb/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>]]></content><author><name></name></author><category term="human-computer-interaction" /><summary type="html"><![CDATA[slides for VL/HCC 2023]]></summary></entry><entry><title type="html">中学毕业十年后</title><link href="https://tracyyxchen.github.io/blog/2023/decade/" rel="alternate" type="text/html" title="中学毕业十年后" /><published>2023-08-05T00:00:00+00:00</published><updated>2023-08-05T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/decade</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/decade/"><![CDATA[<p>仿佛希腊神话中不断更换部件的忒修斯之船（the ship of theseus），在过去十年的航程里，我有显著改变：</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://tracyyxchen.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tracyyxchen.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-31T18:41:36+00:00</updated><id>https://tracyyxchen.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">重新学习网球比赛</title><link href="https://tracyyxchen.github.io/blog/2023/tennis/" rel="alternate" type="text/html" title="重新学习网球比赛" /><published>2023-12-31T00:00:00+00:00</published><updated>2023-12-31T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/tennis</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/tennis/"><![CDATA[<p>在2023年年终，我的USTA NTRP单打级别终于从自我评价的3.5变成了电脑确认的3.5, 在被UTR收录的单打比赛中，女单7胜7负，混单4胜7负。虽然胜少负多，但与去年相比取得了显著进步：去年我只参加了女单比赛，0胜2负，而且是大比分落败。在过去一年里，我投入了大量的时间（超过300小时，每周三次）和金钱（超过7,000美元，包括俱乐部会费、教练费、参赛费等）。尽管我在本科期间也参加了不少科大和合肥本地的网球比赛，但我的方法和技术水平已经完全不同，就好像重新学习了网球比赛一样。以下是我的一些心得：</p>
+
+<h3 id="平时训练">平时训练：</h3>
+
+<ul>
+  <li>
+    <p>专注度和体能：被UTR记录的比赛都是三盘两胜，限时两小时。为了提高体能，我平时与球友打球时也打满两小时，中途休息尽量控制在一到两分钟，以模拟比赛的休息时间。在拉球练习时，我通过每一拍提前思考落点来保持专注；在练习赛时，我每一分结束后都念出比分。</p>
+  </li>
+  <li>
+    <p>缩短热身时间：职业选手在比赛前会在另一片球场热身，但业余选手没有这个条件，因为比赛当天的球场通常会被征用，最多能打一会儿网球墙。因此，我和球友打练习赛也模拟短时间热身，通常热身五分钟后就开始比赛，接受前几局比赛相当于热身的现实。</p>
+  </li>
+  <li>
+    <p>针对性训练：有时我会用Swing Vision录下比赛视频，然后与教练一起分析。我们会制定针对性的训练计划，比如接T点的发球、如何处理又高又深的球等。</p>
+  </li>
+</ul>
+
+<h3 id="比赛前">比赛前：</h3>
+
+<ul>
+  <li>
+    <p>食品药品：我的包里有能量棒，还有止痛片。我受到了郑钦文在生理期法网比赛中的启发，特别准备了止痛片。如果我面临一日双赛的情况，会吃一些腌黄瓜（pickles）以预防肌肉抽筋。</p>
+  </li>
+  <li>
+    <p>避免过度运动：曾经有一次我连续打了三天球，第四天正式比赛时，我的脚步沉重，肌肉酸痛，因此现在我在正式比赛前的一天尽量不打球，而是看一些court level的练习视频，这个摄像机位最有代入感。</p>
+  </li>
+  <li>
+    <p>穿线：尽量不要等到比赛前两天才去穿线，因为比赛有时候在长周末，我曾经遇到过穿线师提前去度假导致无法穿线的情况。</p>
+  </li>
+</ul>
+
+<h3 id="比赛期间">比赛期间：</h3>
+
+<ul>
+  <li>
+    <p>避免保守：一般人在比赛中往往会降低球速，尤其是二发。我经常提醒自己，我的长期目标是打出更棒的网球，因此不能降低拍头挥速，也不要故意将球挑得很高。在有机会的情况下随球上网，即使可能被对手穿越。这样的比赛风格其实并不适合3.5级别的比赛，因为目前的阶段是看谁的失误较少。尽管我想赢，但我更想在有生之年多打一些让自己自豪的球。</p>
+  </li>
+  <li>
+    <p>避免幻想：在一些关键比分如5:3时，我有时会觉得自己已经赢了，但这往往导致输掉比赛。因此，我现在会告诉自己，要一分一分来对待比赛。</p>
+  </li>
+  <li>
+    <p>注意心率：有时在艰苦的一分结束后，我的心率会达到190多，根据最大心率计算公式（220-年龄），这已经是极限。因此，我会盯着运动手表，等心率降下来才开始下一分。</p>
+  </li>
+</ul>
+
+<h3 id="比赛后">比赛后：</h3>
+
+<ul>
+  <li>拉伸和放松：我不仅进行拉伸，还使用筋膜枪。</li>
+  <li>简单总结：我会记录每次的训练和比赛内容，以及打算下次与教练讨论的问题。</li>
+</ul>
+
+<h3 id="2024年的计划">2024年的计划：</h3>
+<p>目前我面临的最大挑战仍然是体能。USTA锦标赛通常在周末两天进行，即使是最少的8签位，要想赢得冠军就需要连胜三场，会面临一日双赛。我曾经打入决赛，但由于不适应30小时内打6小时网球的赛程，体力枯竭，很快就输掉了。因此，我计划在新的一年里模拟比赛日程，将重点放在周末，每周末至少练习4小时。最近我遇到了一些4.0级别的女选手，发现我的球质与她们没有太大区别，但她们比我能够坚持更多拍，而我往往会失去耐心，开始盲目进攻，或者体力不支。总的来说，新的一年，我争取继续提高拍头速度，增强多拍相持的能力，多一些网前得分，不断靠近更高阶的网球。</p>]]></content><author><name></name></author><category term="general" /><summary type="html"><![CDATA[在2023年年终，我的USTA NTRP单打级别终于从自我评价的3.5变成了电脑确认的3.5, 在被UTR收录的单打比赛中，女单7胜7负，混单4胜7负。虽然胜少负多，但与去年相比取得了显著进步：去年我只参加了女单比赛，0胜2负，而且是大比分落败。在过去一年里，我投入了大量的时间（超过300小时，每周三次）和金钱（超过7,000美元，包括俱乐部会费、教练费、参赛费等）。尽管我在本科期间也参加了不少科大和合肥本地的网球比赛，但我的方法和技术水平已经完全不同，就好像重新学习了网球比赛一样。以下是我的一些心得：]]></summary></entry><entry><title type="html">DocDancer: authoring ultra-responsive documents with layout generation</title><link href="https://tracyyxchen.github.io/blog/2023/docdancer/" rel="alternate" type="text/html" title="DocDancer: authoring ultra-responsive documents with layout generation" /><published>2023-10-07T00:00:00+00:00</published><updated>2023-10-07T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/docdancer</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/docdancer/"><![CDATA[<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRod9jlCYSbBdbMx_EipC6ZyZqSpH26lLi7fyUWA0dnbZkTL7dL82DY_9M7CfPOggS1p3Ty3gGD57bb/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>]]></content><author><name></name></author><category term="human-computer-interaction" /><summary type="html"><![CDATA[slides for VL/HCC 2023]]></summary></entry><entry><title type="html">中学毕业十年后</title><link href="https://tracyyxchen.github.io/blog/2023/decade/" rel="alternate" type="text/html" title="中学毕业十年后" /><published>2023-08-05T00:00:00+00:00</published><updated>2023-08-05T00:00:00+00:00</updated><id>https://tracyyxchen.github.io/blog/2023/decade</id><content type="html" xml:base="https://tracyyxchen.github.io/blog/2023/decade/"><![CDATA[<p>仿佛希腊神话中不断更换部件的忒修斯之船（the ship of theseus），在过去十年的航程里，我有显著改变：</p>
 
 <p>2013年，我从一所中国西部的高中毕业，日常用语是四川话。我的书和笔记都是纸质的，刚刚拥有了人生中第一台笔记本电脑和智能手机，不会编程，遇到问题百度一下。</p>
 

@@ -553,52 +553,7 @@ headers and footers
 </ul>
 
     </div>
-  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
-  <script>
-    let giscusTheme = localStorage.getItem("theme");
-    let giscusAttributes = {
-        "src": "https://giscus.app/client.js",
-        "data-repo": "TracyYXChen/TracyYXChen.github.io",
-        "data-repo-id": "R_kgDOJtjVPA",
-        "data-category": "Announcements",
-        "data-category-id": "DIC_kwDOJtjVPM4CYB4l",
-        "data-mapping": "pathname",
-        "data-strict": "0",
-        "data-reactions-enabled": "1",
-        "data-emit-metadata": "0",
-        "data-input-position": "bottom",
-        "data-theme": giscusTheme,
-        "data-lang": "en",
-        "crossorigin": "anonymous",
-        "async": "",
-    };
-
-
-    let giscusScript = document.createElement("script");
-
-    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-    document.getElementById("giscus_thread").appendChild(giscusScript);
-    
-    const targetNode = document.getElementById('giscus_thread');
-    const observerOptions = {
-          childList: true,
-          subtree: true
-        };
-    const observer = new MutationObserver((mutationsList, observer) => {
-            for(let mutation of mutationsList) {
-                if (mutation.type === 'childList') {
-                    let elements = document.getElementsByClassName('gsc-upvote-button');
-                    for(let i=0; i < elements.length; i++){
-                        elements[i].style.display = 'none';
-                    }
-                }
-            }
-        });
-    observer.observe(targetNode, observerOptions);
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript">comments powered by giscus.</a></noscript>
-</div>
-</div>
+  </article></div>
 
       
     </div>
