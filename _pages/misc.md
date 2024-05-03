@@ -34,7 +34,7 @@ I plan to either join a startup or start my own company. The following books hav
 
 #### Personal Development
 - Mindset: The New Psychology of Success by Carol S. Dweck
-- Atomic Habits Journal: A Daily Motivational Atomic Habits Journal & Planner For Habits Tracking To Guide You Achieve Your Goal by James Clear
+- Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear
 - The Road Less Traveled: A New Psychology of Love, Traditional Values and Spiritual Growth by M. Scott Peck
 - How Will You Measure Your Life? by Clayton M. Christensen
 - Start with Why: How Great Leaders Inspire Everyone to Take Action by Simon Sinek
