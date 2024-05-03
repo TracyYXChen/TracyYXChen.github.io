@@ -31,7 +31,6 @@ I plan to either join a startup or start my own company. The following books hav
 - The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers by Ben Horowitz
 - Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration by Ed Catmull
 - Inspired: How to Create Tech Products Customers Love by Marty Cagan
-- Zhong Guan Village: Tales from the Heart of China's Silicon Valley by Ning Ken
 
 #### Personal Development
 - Mindset: The New Psychology of Success by Carol S. Dweck
@@ -45,7 +44,6 @@ I plan to either join a startup or start my own company. The following books hav
 #### Biography
 - Steve Jobs by Walter Isaacson
 - Idea Man by Paul Allen
-- Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life by Lulu Miller
 
 #### Culture
 - Thinking, Fast and Slow by Daniel Kahneman
@@ -57,17 +55,15 @@ I plan to either join a startup or start my own company. The following books hav
 - Foundation by Isaac Asimov
 - The Three-Body Problem by Liu Cixin
 - Brave New World by Aldous Huxley
-- 1984 by George Orwell
 
 ### 我在做什么
-我叫陈玥西，简称Tracy，目前在美国马里兰大学计算机系读博士，方向是[人机交互](https://hcil.umd.edu/){:target="_blank" rel="noopener"}。我开发给创作者和数据分析师使用的新型工具（和Adobe公司有一些合作）。
+我叫陈玥西，简称Tracy，目前在马里兰大学计算机系读博士，方向是Human-AI Interaction，研发给内容创作者和数据分析师使用的新工具（和Adobe公司有一些合作）。
 
 ### 从前
-我来自内江，一座四川中南部的小城市，有一条长江的支流穿城而过。如果你读过[彼得海斯勒的《江城》](https://m.douban.com/book/subject/7060185/){:target="_blank" rel="noopener"}，那么我的人生仿佛是它的续集：像那些涪陵师范的学生一样，我妈妈师范毕业后也成为了一名英语老师。我本科毕业于中国科学技术大学（1314），因此我也认为合肥是我的第二故乡。
-
+我来自四川内江，一座长江支流沿岸的小城市。如果你读过[彼得海斯勒的《江城》](https://m.douban.com/book/subject/7060185/){:target="_blank" rel="noopener"}，那么我的人生仿佛是它的续集：我妈妈师范毕业后成为了一名英语老师。我本科毕业于中国科学技术大学（1314），因此我也认为合肥是我的第二故乡:smile:
 
 ### 网球
-当我不写代码的时候，我往往在打网球。像许多中国小朋友一样，我从小打乒乓球，不过我上大学之后改练网球，后来加入了校队，曾经代表科大参加大学生网球比赛（甲组，非特长生）。我目前作为NTRP3.5选手参加美国网球协会的业余联赛。我有一张[谷歌地图](https://www.google.com/maps/d/viewer?mid=1GRiYfEKGLojztDRf_SbnKBUKRliBxOM&hl=en&usp=sharing){:target="_blank" rel="noopener"}记录地球上我去过的网球场。
+当我不写代码的时候，我往往在打网球。我以前是科大校队的，曾经代表学校参加大学生网球比赛（甲组，非特长生）。我目前作为NTRP3.5选手参加美国网球协会的业余联赛。我有一张[谷歌地图](https://www.google.com/maps/d/viewer?mid=1GRiYfEKGLojztDRf_SbnKBUKRliBxOM&hl=en&usp=sharing){:target="_blank" rel="noopener"}记录地球上我去过的网球场。
 
 ### 未来
 我打算今后加入创业公司或者自己创业。以下[书籍](#books)改变了我大脑神经网络的权重和偏置，如果你正在寻找合作伙伴并且也读过其中一些，欢迎联系我。
