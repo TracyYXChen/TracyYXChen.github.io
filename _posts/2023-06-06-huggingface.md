@@ -9,6 +9,8 @@ related_posts: false
 published: true
 ---
 
+[![HitCount](https://hits.dwyl.com/tracyyxchen/https://tracyyxchengithubio/blog/2023/huggingface/.svg?style=flat-square)](http://hits.dwyl.com/tracyyxchen/https://tracyyxchengithubio/blog/2023/huggingface/)
+
 During the [40th HCIL Symposium](https://hcil.umd.edu/hcil-symposium-2023/){:target="_blank" rel="noopener"}, I gave a tutorial on Hugging Face, a powerful machine learning (ML) platform that offers user-friendly APIs. In addition, incorporating UMD themes made the experience more enjoyable, which served as a fun backdrop.
 
 As someone who has used Hugging Face for my research, I was impressed by its user-friendliness and the scope of its ML APIs. The tutorial targeted HCI/UX researchers and hobbyists with a limited computing budget but are interested in exploring new features with potential ML capabilities or in making inferences with pre-trained models.
