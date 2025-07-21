@@ -21,4 +21,4 @@ Hi, I'm Tracy, an AI Scientist at GE HealthCare, Bellevue, WA. I'm currently wor
 [[X (Twitter)](https://twitter.com/tracyyxchen){:target="_blank"}]
 [[Medium](https://medium.com/@tracyyxchen){:target="_blank"}]
 [[Google Scholar](https://scholar.google.com/citations?user=eg8I0UUAAAAJ&hl=en){:target="_blank"}]
-[[Resume](https://drive.google.com/file/d/15w1ACv12TmkpGQWJcq5yf2cWHmwAGnlC/view?usp=sharing){:target="_blank"}]
+[[Resume](https://drive.google.com/file/d/1NREEFjrZX7-ehEuZ09vePKQ3Goq6YQWI/view?usp=sharing){:target="_blank"}]
