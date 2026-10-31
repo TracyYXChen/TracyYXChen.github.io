@@ -23,3 +23,9 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+# Gems removed from the Ruby default set in newer Ruby (3.4+/4.0); harmless on older Ruby.
+gem 'base64'
+gem 'bigdecimal'
+gem 'csv'
+gem 'logger'
+gem 'ostruct'
