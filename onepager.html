@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tracy Yuexi Chen</title>
+<meta name="description" content="Tracy Yuexi Chen — AI Scientist (Tech Lead) at GE HealthCare.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1b1d21; --muted:#6b7177; --rule:#e8e9ec;
+    --card:#f7f8fa; --accent:#c2410c; --link:#1d4ed8; --maxw:720px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141619; --fg:#e6e7ea; --muted:#9aa0a6; --rule:#2a2d31;
+           --card:#1b1e22; --accent:#fb923c; --link:#7aa2ff; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{max-width:var(--maxw); margin:0 auto; padding:56px 20px 80px}
+  a{color:var(--link); text-decoration:none}
+  a:hover{text-decoration:underline}
+  h1{font-size:2rem; line-height:1.15; margin:0 0 6px; letter-spacing:-.02em}
+  h2{font-size:.82rem; text-transform:uppercase; letter-spacing:.14em;
+     color:var(--muted); font-weight:700; margin:0 0 18px}
+  section{margin-top:52px}
+  .intro{display:flex; flex-direction:column; align-items:flex-start}
+  .avatar{width:128px; height:128px; border-radius:50%; object-fit:cover;
+    margin-bottom:22px; box-shadow:0 2px 14px rgba(0,0,0,.14)}
+  .bio p{margin:0 0 14px}
+  .bio p:last-child{color:var(--muted); font-size:.95rem}
+  /* misc (collapsible) */
+  .collapsible-section{border:none}
+  summary.section-summary{
+    cursor:pointer; list-style:none; outline:none; display:inline-flex;
+    align-items:center; gap:9px;
+    font-size:.82rem; text-transform:uppercase; letter-spacing:.14em;
+    color:var(--muted); font-weight:700;
+  }
+  summary.section-summary::-webkit-details-marker{display:none}
+  summary.section-summary::after{
+    content:""; width:7px; height:7px; display:inline-block;
+    border-right:2px solid var(--muted); border-bottom:2px solid var(--muted);
+    transform:translateY(-1px) rotate(-45deg); transition:transform .2s ease}
+  details[open] summary.section-summary::after{
+    transform:translateY(-3px) rotate(45deg)}
+  .section-body{margin-top:18px; animation:fade .2s ease}
+  .section-body p{margin:0 0 14px}
+  /* writing */
+  details.post{border-top:1px solid var(--rule); padding:16px 0}
+  details.post:last-of-type{border-bottom:1px solid var(--rule)}
+  details.post summary{
+    cursor:pointer; list-style:none; outline:none;
+    display:block; position:relative; padding-right:26px;
+  }
+  details.post summary::-webkit-details-marker{display:none}
+  details.post summary::after{
+    content:"+"; position:absolute; right:2px; top:-2px;
+    color:var(--muted); font-size:1.25rem; line-height:1; transition:transform .18s ease}
+  details.post[open] summary::after{content:"\2013"}
+  .post-head{display:flex; justify-content:space-between; gap:14px; align-items:baseline}
+  .post-title{font-weight:600; color:var(--fg)}
+  .post-date{flex:none; color:var(--muted); font-size:.82rem; white-space:nowrap}
+  .post-sub{display:block; color:var(--muted); font-size:.9rem; margin-top:3px}
+  .post-body{padding-top:14px; animation:fade .2s ease}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .post-body h1,.post-body h2,.post-body h3{
+    text-transform:none; letter-spacing:normal; color:var(--fg);
+    font-weight:650; margin:22px 0 10px; font-size:1.1rem}
+  .post-body p{margin:0 0 14px}
+  .post-body ul,.post-body ol{padding-left:22px; margin:0 0 14px}
+  .post-body img.post-img,.post-body img{
+    max-width:100%; height:auto; display:block; margin:18px auto;
+    border-radius:8px; box-shadow:0 1px 8px rgba(0,0,0,.12)}
+  .post-body pre{background:var(--card); padding:14px; border-radius:8px;
+    overflow:auto; font-size:.86rem}
+  .post-body code{background:var(--card); padding:.1em .35em; border-radius:4px;
+    font-size:.88em}
+  .post-body pre code{background:none; padding:0}
+  .post-body blockquote{margin:0 0 14px; padding-left:14px;
+    border-left:3px solid var(--rule); color:var(--muted)}
+  footer{margin-top:64px; color:var(--muted); font-size:.82rem;
+    border-top:1px solid var(--rule); padding-top:20px}
+</style>
+</head>
+<body>
+<main>
+  <header class="intro">
+    <img class="avatar" src="assets/img/tracy_face.jpg" alt="Tracy Yuexi Chen">
+    <h1>Tracy Yuexi Chen</h1>
+    <div class="bio"><p>Hi, I’m Tracy, an AI Scientist (Tech Lead) at GE HealthCare, Bellevue, WA. My current focus is building agentic AI for healthcare. I received my Ph.D. in Computer Science from the University of Maryland, advised by <a href="https://zcliu.org/" target="_blank">Prof. Leo Zhicheng Liu.</a> During my Ph.D., I was fortunate to collaborate with Adobe and Bosch Research on human-AI interaction projects. If you’re interested in details, read my thesis here: <a href="https://www.proquest.com/openview/cdb8c3801950f368b3081bb93ee35585/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y" target="_blank">Bridging the Gulf of Evaluation in Human-AI Interaction for Knowledge Workers</a></p>
+
+<p>[<a href="https://www.linkedin.com/in/yuexi-tracy-chen-9186631a9/" target="_blank">LinkedIn</a>]
+[<a href="https://twitter.com/tracyyxchen" target="_blank">X (Twitter)</a>]
+[<a href="https://medium.com/@tracyyxchen" target="_blank">Medium</a>]
+[<a href="https://substack.com/@drtracyyxchen" target="_blank">Substack</a>]
+[<a href="https://scholar.google.com/citations?user=eg8I0UUAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>]</p>
+</div>
+  </header>
+
+  <section class="misc">
+    <details class="collapsible-section">
+      <summary class="section-summary">Misc</summary>
+      <div class="section-body">
+        <p>I go by Tracy because it sounds like my Chinese name 陈玥西, here’s the breakdown:</p>
+
+<p>陈 (Chen)：a common Chinese last name, you might also see Chan (Cantonese) or Tan (Hokkien)</p>
+
+<p>玥 (Yue)：a gemstone</p>
+
+<p>西 (Xi)：west</p>
+
+<p>I come from <a href="https://en.wikipedia.org/wiki/Neijiang" target="_blank" rel="noopener">Neijiang</a>, a city on the bank of a tributary of the Yangtze River in Sichuan Province, China. If you’ve read <a href="https://en.wikipedia.org/wiki/River_Town:_Two_Years_on_the_Yangtze" target="_blank" rel="noopener">River Town by Peter Hessler</a>, my life is like a sequel to the book: my mom attended a teachers’ college and later became an English teacher. I received my B.S. from the <a href="https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China" target="_blank" rel="noopener">University of Science and Technology of China (USTC)</a> in <a href="https://en.wikipedia.org/wiki/Hefei" target="_blank" rel="noopener">Hefei</a>, Anhui Province, which I consider as my second hometown :heart:</p>
+
+<p>When I am not doing research, I am usually playing tennis. I was on the varsity team when I was an undergrad. If you also play UTR or USTA tournaments, you can find my profiles here <a href="https://app.utrsports.net/profiles/3935879" target="_blank" rel="noopener">[UTR]</a> <a href="https://www.usta.com/en/home/play/player-search/profile.html#uaid=2018930102&amp;tab=about" target="_blank" rel="noopener">[USTA]</a>. I also created <a href="https://www.google.com/maps/d/viewer?mid=1GRiYfEKGLojztDRf_SbnKBUKRliBxOM&amp;hl=en&amp;usp=sharing">a map</a> to record the tennis courts I’ve visited on the 🌍</p>
+
+      </div>
+    </details>
+  </section>
+
+  <footer>© 2026 Tracy Yuexi Chen · built as a single page</footer>
+</main>
+</body>
+</html>
